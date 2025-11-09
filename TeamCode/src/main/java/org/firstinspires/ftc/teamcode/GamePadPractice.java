@@ -4,7 +4,7 @@ import com.qualcomm.robotcore.eventloop.opmode.Disabled;
 import com.qualcomm.robotcore.eventloop.opmode.OpMode;
 import com.qualcomm.robotcore.eventloop.opmode.TeleOp;
 //@disabled makes the code hidden to the driver station
-@Disabled
+//@Disabled
 @TeleOp
 public class GamePadPractice extends OpMode {
 

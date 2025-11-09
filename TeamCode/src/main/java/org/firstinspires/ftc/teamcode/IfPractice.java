@@ -55,15 +55,29 @@ public class IfPractice extends OpMode {
 
         telemetry.addData("Left Stick", leftY);
 
-        double motorSpeed = gamepad1.left_stick_y;
+        double motorSpeed = -gamepad1.left_stick_y;
         boolean aButton = gamepad1.a;
 
-        if (!aButton) {
+
+        if (!gamepad1.a) {
             motorSpeed *= 0.5;
         }
+
+        telemetry.addData("Left Stick Value", motorSpeed);
+
+
+        /*
+        if (aButton == true) {
+            motorSpeed *= 0.5;
+        }
+         */
+
+        /*
         else {
             motorSpeed = motorSpeed;
         }
+
+         */
 
     }
 }
