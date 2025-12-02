@@ -1,3 +1,6 @@
+dependencies {
+    implementation project(':TeamCode')
+}
 import java.text.SimpleDateFormat
 
 //
